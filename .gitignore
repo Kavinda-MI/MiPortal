@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+
+# Angular build output
+dist/
+build/
+
+# IDE files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files (keep secrets safe, especially production keys)
+src/environments/environment.prod.ts
+src/environments/environment.ts
+
+# Angular CLI and other related files
+.angular/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.swp
+*.swo
+
+# Dependency directories
+bower_components/
+jspm_packages/
